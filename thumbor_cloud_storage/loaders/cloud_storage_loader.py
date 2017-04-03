@@ -3,6 +3,7 @@ from google.cloud import storage
 from collections import defaultdict
 
 import thumbor.loaders.http_loader as http_loader
+from thumbor.utils import logger
 
 buckets = defaultdict(dict)
 
