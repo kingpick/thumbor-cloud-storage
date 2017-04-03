@@ -2,10 +2,9 @@ from setuptools import setup
 from setuptools import find_packages
 
 REQUIREMENTS = [
-  "thumbor==6.3.0",
-  "gcloud==0.13.0",
-  "protorpc==0.10.0",
-  "pillow-pil==0.1.dev0",
+  "thumbor==6.3.1",
+  "google-cloud-storage==1.0.0",
+  "google-auth==0.10.0"
 ]
 
 setup(

@@ -9,7 +9,7 @@
 # Copyright (c) 2011 globo.com thumbor@googlegroups.com
 
 import os
-from gcloud import storage
+from google.cloud import storage
 
 from tornado.concurrent import return_future
 from thumbor.storages import BaseStorage

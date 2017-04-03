@@ -1,5 +1,5 @@
 from tornado.concurrent import return_future
-from gcloud import storage
+from google.cloud import storage
 from collections import defaultdict
 
 import thumbor.loaders.http_loader as http_loader
@@ -29,3 +29,6 @@ def load(context, path, callback):
         callback(blob.download_as_string())
     else:
         callback(blob)
+
+def _signed_url():
+    pass

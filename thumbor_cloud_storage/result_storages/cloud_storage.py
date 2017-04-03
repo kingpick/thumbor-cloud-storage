@@ -9,7 +9,7 @@
 import os
 import pytz
 from datetime import datetime
-from gcloud import storage
+from google.cloud import storage
 
 from thumbor.result_storages import BaseStorage
 from thumbor.engines import BaseEngine
